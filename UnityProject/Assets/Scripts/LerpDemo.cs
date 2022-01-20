@@ -7,14 +7,15 @@ public class LerpDemo : MonoBehaviour
     public Transform pointA;
     public Transform pointB;
 
+    [Range(0, 1)]
 
-    void Start()
+    public float percent = 0;
+
+    void doInterpolation()
     {
-        
+        if (pointA == null) return;
+        if (pointB == null) return;
+
     }
 
-    void Update()
-    {
-        
-    }
 }
