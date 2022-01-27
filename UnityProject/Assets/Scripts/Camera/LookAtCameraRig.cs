@@ -6,7 +6,7 @@ public class LookAtCameraRig : MonoBehaviour
 {
     public Transform target;
 
-    public float desiredDistance = 10;
+    public float desiredDistance = 5;
 
     void Start()
     {
